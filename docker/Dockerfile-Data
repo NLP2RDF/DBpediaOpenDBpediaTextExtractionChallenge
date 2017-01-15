@@ -1,0 +1,3 @@
+FROM java:8 
+
+MAINTAINER  NLP2RDF <nlp2rdf@lists.informatik.uni-leipzig.de>
