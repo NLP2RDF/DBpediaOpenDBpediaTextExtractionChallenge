@@ -14,10 +14,11 @@ Get more at [http://wiki.dbpedia.org/textext](http://wiki.dbpedia.org/textext)
 
 ## Supported tags and respective Dockerfile links
 
-
+//TODO: describe this section
 
 ## How to run
 
+//TODO: describe this section
 
 
 ## Supported Docker versions
@@ -32,5 +33,9 @@ Documentation for this image is stored in [GitHub repo](http://github.com/dbpedi
 ## Issues
 If you have any problems with or questions about this image, please contact us through a [GitHub issue](https://github.com/NLP2RDF/DBpediaOpenDBpediaTextExtractionChallenges).
 
+
+## Maintainers
+
+<a href="http://infai.org"><img src="http://infai.org/de/Aktuelles/files?get=10_jahre_infai_gold.PNG" align="left" height="20%" width="20%" ></a>
 
 
