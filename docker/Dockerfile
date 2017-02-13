@@ -7,6 +7,7 @@ RUN apt-get update && \
     mkdir -p /opt/extraction && \
     cd /opt/extraction && \
     git clone https://github.com/NLP2RDF/DBpediaOpenDBpediaTextExtractionChallenge.git && \
+    cd DBpediaOpenDBpediaTextExtractionChallenge && \
     mvn clean install
     
     
