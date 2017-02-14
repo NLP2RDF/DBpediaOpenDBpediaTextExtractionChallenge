@@ -12,11 +12,12 @@ Useful NLP annotations such as pos-tags, dependencies, co-reference (Annotation 
 Get more at [http://wiki.dbpedia.org/textext](http://wiki.dbpedia.org/textext)
 
 
-## Supported tags and respective Dockerfile links
+## Tags 
 
-//TODO: describe this section
+  - nlp2rdf/dbpediaopendbpediatextextractionchallenge:tools
 
 ## How to run
+
 
 1) Create a volume to store the data
 
@@ -26,9 +27,21 @@ Get more at [http://wiki.dbpedia.org/textext](http://wiki.dbpedia.org/textext)
 
 ``docker run -v nif-datasets:/opt/data -it nlp2rdf/dbpediaopendbpediatextextractionchallenge:tools bash``
 
-3) Run once our install script
+3) Run once our install script (Get some coffee. This will take some time)
 
 ``/opt/install.sh``
+
+Now, you are ready to start to work. Our software image contains some useful tools to help you to take advantage of [NIF](https://site.nlp2rdf.org/)
+  
+  
+* JDK 1.8
+* [Maven 3.x](http://maven.apache.org/)
+* [Rapper - Raptor RDF Syntax Library](http://librdf.org/raptor/)
+* Python 2.7.x 
+* [IntelliJ Community Edition 2016](https://www.jetbrains.com/idea/)
+* And finally, a java stub to build your own code 
+
+ Didn't found a software that you need and not in list? Please tell us opening an issue
 
 
 ## Supported Docker versions
@@ -38,7 +51,7 @@ Please see the [Docker installation documentation] (https://docs.docker.com/inst
 
 ## Documentation
 
-Documentation for this image is stored in [GitHub repo](http://github.com/dbpedia-spotlight/dbpedia-spotlight/wiki).
+Documentation for this image is stored in [GitHub repo](https://github.com/NLP2RDF/DBpediaOpenDBpediaTextExtractionChallenge/wiki).
 
 ## Issues
 If you have any problems with or questions about this image, please contact us through a [GitHub issue](https://github.com/NLP2RDF/DBpediaOpenDBpediaTextExtractionChallenges).
