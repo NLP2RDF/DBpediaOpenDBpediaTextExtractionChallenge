@@ -49,16 +49,19 @@ NIF / Turtle files:
 
 
 ``String content = ResourceLoader.getContent("PATH");
+
   NIFParser parser = new NIFParser(content);
+  
   NIF nif = parser.getNIF();``
 
 
 N3 files:
 
 ``Stream<String> content = ResourceLoader.getStream("PATH");
-   
-   NTripleParser parser = new NTripleParser(content);
-   List<NIF> nif = parser.getNIF();``
+
+NTripleParser parser = new NTripleParser(content);
+
+ List<NIF> nif = parser.getNIF();``
 
 
 
