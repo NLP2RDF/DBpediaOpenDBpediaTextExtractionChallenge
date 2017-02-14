@@ -18,7 +18,17 @@ Get more at [http://wiki.dbpedia.org/textext](http://wiki.dbpedia.org/textext)
 
 ## How to run
 
-//TODO: describe this section
+1) Create a volume to store the data
+
+``docker create -v /nif-datasets``
+
+2) Start our tools image 
+
+``docker run -v nif-datasets:/opt/data -it nlp2rdf/dbpediaopendbpediatextextractionchallenge:tools bash``
+
+3) Run once our install script
+
+``/opt/install.sh``
 
 
 ## Supported Docker versions
