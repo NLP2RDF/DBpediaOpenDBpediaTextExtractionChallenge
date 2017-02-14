@@ -25,7 +25,7 @@ Get more at [http://wiki.dbpedia.org/textext](http://wiki.dbpedia.org/textext)
 
 2) Start our software image 
 
-``docker run -v nif-datasets:/opt/data -it nlp2rdf/dbpediaopendbpediatextextractionchallenge:tools bash``
+``docker run -v nif-datasets:/home/developer/data -it nlp2rdf/dbpediaopendbpediatextextractionchallenge:tools bash``
 
 3) Run once our install script (Get some coffee. This will take some time)
 

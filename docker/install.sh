@@ -3,7 +3,7 @@
 export LANGUAGES=(en de es fr it ja ko nl pl pt)
 export DATA_SERVER=downloads.dbpedia.org/2016-04/ext/nif-abstracts/
 
-cd /opt/data
+cd /home/developer/data
 
 for ((i=0;i<${#LANGUAGES[@]};++i)); do
 
