@@ -23,7 +23,7 @@ Get more at [http://wiki.dbpedia.org/textext](http://wiki.dbpedia.org/textext)
 
 ``docker create -v /nif-datasets``
 
-2) Start our tools image 
+2) Start our software image 
 
 ``docker run -v nif-datasets:/opt/data -it nlp2rdf/dbpediaopendbpediatextextractionchallenge:tools bash``
 
