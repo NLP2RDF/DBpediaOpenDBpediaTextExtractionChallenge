@@ -44,6 +44,12 @@ Now, you are ready to start to work. Our software image contains some useful too
  Didn't found a software that you need and not in list? Please tell us opening an issue
 
 
+## How to submit
+
+//TODO
+
+
+
 ## Supported Docker versions
 This image is officially supported on Docker version 1.9.1.
 
