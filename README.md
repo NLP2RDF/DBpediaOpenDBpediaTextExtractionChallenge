@@ -38,10 +38,36 @@ Now, you are ready to start to work. Our software image contains some useful too
 * [Maven 3.x](http://maven.apache.org/)
 * [Rapper - Raptor RDF Syntax Library](http://librdf.org/raptor/)
 * Python 2.7.x 
-* [IntelliJ Community Edition 2016](https://www.jetbrains.com/idea/)
-* And finally, a java stub to build your own code 
+* [IntelliJ Community Edition 2016](https://www.jetbrains.com/idea/) - Path: /opt/idea-IC-163.12024.16/bin/idea.sh 
+* Datasets in NIF - Path:  /home/developer/data/
+* And finally, a small java stub to read NIF/turtle or N3 files to help you build your own code 
 
- Didn't found a software that you need and not in list? Please tell us opening an issue
+
+### Stubs:
+
+NIF / Turtle files:
+
+``
+  String content = ResourceLoader.getContent("PATH");
+  NIFParser parser = new NIFParser(content);
+  NIF nif = parser.getNIF();
+
+``
+
+
+N3 files:
+
+``
+   Stream<String> content = ResourceLoader.getStream("PATH");
+   
+   NTripleParser parser = new NTripleParser(content);
+   List<NIF> nif = parser.getNIF();
+
+``
+
+
+
+ Didn't found a software or a info that you need and not in list? Please tell us opening an issue
 
 
 ## How to submit
