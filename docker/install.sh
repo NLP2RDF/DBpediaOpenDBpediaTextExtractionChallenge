@@ -5,6 +5,10 @@ export DATA_SERVER=downloads.dbpedia.org/2016-04/ext/nif-abstracts/
 
 cd /home/developer/data
 
+git clone https://github.com/NLP2RDF/DBpediaOpenDBpediaTextExtractionChallenge.git
+cd DBpediaOpenDBpediaTextExtractionChallenge
+mvn clean install
+
 for ((i=0;i<${#LANGUAGES[@]};++i)); do
 
     LANGUAGE=${LANGUAGES[i]}
