@@ -21,7 +21,7 @@ Get more at [http://wiki.dbpedia.org/textext](http://wiki.dbpedia.org/textext)
 
 1) Create a volume to store the data
 
-``docker create -v /nif-datasets``
+``docker volume create --name nif-datasets``
 
 2) Start our software image 
 
