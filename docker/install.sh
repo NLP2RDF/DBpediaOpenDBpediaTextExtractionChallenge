@@ -9,6 +9,9 @@ git clone https://github.com/NLP2RDF/DBpediaOpenDBpediaTextExtractionChallenge.g
 cd DBpediaOpenDBpediaTextExtractionChallenge
 mvn clean install
 
+cd /home/developer/data
+
+
 for ((i=0;i<${#LANGUAGES[@]};++i)); do
 
     LANGUAGE=${LANGUAGES[i]}
