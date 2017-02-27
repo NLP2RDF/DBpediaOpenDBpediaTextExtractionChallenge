@@ -84,7 +84,7 @@ tar cvfz content.tgz /var/lib/docker/volumes/nif-datasets/_data
 ```
 
 
-Create a Dockerfile with the content
+Create a Dockerfile with your Docker volume content
 
 ```
 FROM java:8
