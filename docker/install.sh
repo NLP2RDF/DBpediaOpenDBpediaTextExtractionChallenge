@@ -3,6 +3,8 @@
 export LANGUAGES=(en de es fr it ja ko nl pl pt)
 export DATA_SERVER=downloads.dbpedia.org/2016-04/ext/nif-abstracts/
 
+mkdir -p /home/developer/data
+
 cd /home/developer/
 
 git clone https://github.com/NLP2RDF/DBpediaOpenDBpediaTextExtractionChallenge.git
