@@ -74,13 +74,13 @@ Stream<String> content = ResourceLoader.getStream("PATH");
 ## How to submit
 
 
-Create a repo with the name dbpediaopendbpediatextextractionchallenge at DockerHub;
+Create a repo with the name dbpediaopendbpediatextextractionchallenge at [DockerHub](http://hub.docker.com);
 
 
 Backup your Docker volume;
 
 ```
- - tar cvfz content.tgz /var/lib/docker/volumes/nif-datasets/_data
+tar cvfz content.tgz /var/lib/docker/volumes/nif-datasets/_data
 ```
 
 
