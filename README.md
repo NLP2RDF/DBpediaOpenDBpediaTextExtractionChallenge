@@ -73,7 +73,33 @@ Stream<String> content = ResourceLoader.getStream("PATH");
 
 ## How to submit
 
-//TODO
+
+Create a repo with the name dbpediaopendbpediatextextractionchallenge at DockerHub;
+
+
+Backup your Docker volume;
+
+```
+ - tar cvfz content.tgz /var/lib/docker/volumes/nif-datasets/_data
+```
+
+
+Create a Dockerfile with the content
+
+```
+FROM java:8
+
+ADD content.tgz /opt
+```
+
+Create an image using your Dockerfile
+
+``` 
+docker build -t response .
+
+```
+
+Then [push this image](https://docs.docker.com/engine/getstarted/step_six/) to DockerHub and open an issue to telling us your repository name
 
 
 
