@@ -106,7 +106,7 @@ Then [push this image](https://docs.docker.com/engine/getstarted/step_six/) to D
 ## Supported Docker versions
 This image is officially supported on Docker version 1.9.1.
 
-Please see the [Docker installation documentation] (https://docs.docker.com/installation/) for details on how to upgrade your Docker daemon.
+Please see the [Docker installation documentation](https://docs.docker.com/installation/) for details on how to upgrade your Docker daemon.
 
 ## Documentation
 
