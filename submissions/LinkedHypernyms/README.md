@@ -15,3 +15,10 @@ This Linked Hypernym dataset attaches entity articles in English, German and Dut
 ### How to run:
 
  TODO: describe it
+ 
+ 
+ 
+ ### Maintainers
+ 
+ 
+<a href="http://kizi.vse.cz/english/"><img src="http://kizi.vse.cz/english/wp-content/themes/www_vse_cz/img/vse-logo.gif" align="left" height="20%" width="20%" ></a>
