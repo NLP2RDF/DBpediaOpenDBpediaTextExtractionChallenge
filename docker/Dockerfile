@@ -15,13 +15,10 @@ RUN export uid=1000 gid=1000 && \
     apt-get update && \
     apt-get -y install maven git raptor2-utils  && \
     cd /opt && \
-    wget https://download.jetbrains.com/idea/ideaIC-2016.3.4.tar.gz && \
-    tar -xvzf ideaIC-2016.3.4.tar.gz && \
-    rm  ideaIC-2016.3.4.tar.gz && \
+    wget https://download.jetbrains.com/idea/ideaIC-2017.2.1.tar.gz && \
+    tar -xvzf ideaIC-2017.2.1.tar.gz && \
+    rm  ideaIC-2017.2.1.tar.gz && \
     chmod a+x install.sh
 
 USER developer
 ENV HOME /home/developer
-    
-
-
