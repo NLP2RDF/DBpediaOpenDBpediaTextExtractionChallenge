@@ -25,7 +25,7 @@ for ((i=0;i<${#LANGUAGES[@]};++i)); do
     wget "http://$DATA_SERVER/${LANGUAGE}/nif-page-structure_${LANGUAGE}.ttl.bz2"
 
     echo "Downloading text links in ${LANGUAGE}..."
-    wget "http://$DATA_SERVER/${LANGUAGE}/nif-text-links_${LANGUAGE}.ttl.bz2 "
+    wget "http://$DATA_SERVER/${LANGUAGE}/nif-text-links_${LANGUAGE}.ttl.bz2"
 
 
     echo "Unpacking abstracts..."
