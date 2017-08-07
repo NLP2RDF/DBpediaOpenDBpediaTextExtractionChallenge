@@ -1,0 +1,8 @@
+LHD_ONTOLOGY_URL=http://vmdbpedia.informatik.uni-leipzig.de/2015-10/dbpedia_2015-10.owl
+LHD_INSTANCE_TYPES_URL=http://vmdbpedia.informatik.uni-leipzig.de:8088/2016-04/dewiki/20160305/dewiki-20160305-instance-types.ttl.bz2
+LHD_INSTANCE_TYPES_EN_URL=http://vmdbpedia.informatik.uni-leipzig.de:8088/2016-04/enwiki/20160305/enwiki-20160305-instance-types.ttl.bz2
+LHD_INSTANCE_TYPES_TRANSITIVE_URL=http://vmdbpedia.informatik.uni-leipzig.de:8088/2016-04/dewiki/20160305/dewiki-20160305-instance-types-transitive.ttl.bz2
+LHD_INSTANCE_TYPES_TRANSITIVE_EN_URL=http://vmdbpedia.informatik.uni-leipzig.de:8088/2016-04/enwiki/20160305/enwiki-20160305-instance-types-transitive.ttl.bz2
+LHD_INTERLANGUAGE_LINKS_EN_URL=http://vmdbpedia.informatik.uni-leipzig.de:8088/2016-04/enwiki/20160305/enwiki-20160305-interlanguage-links.ttl.bz2
+LHD_DISAMBIGUATIONS_URL=http://vmdbpedia.informatik.uni-leipzig.de:8088/2016-04/dewiki/20160305/dewiki-20160305-disambiguations.ttl.bz2
+LHD_SHORT_ABSTRACTS_URL=http://vmdbpedia.informatik.uni-leipzig.de:8088/2016-04/dewiki/20160305/dewiki-20160305-short-abstracts.ttl.bz2
